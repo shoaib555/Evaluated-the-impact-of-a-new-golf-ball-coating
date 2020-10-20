@@ -1,6 +1,5 @@
 #Loading the data and library for analysis:
 library(readxl)
-library(dplyr)
 go<-read_excel("Go.xls")
 summary(go)
 
